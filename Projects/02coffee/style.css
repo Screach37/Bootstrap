@@ -1,0 +1,19 @@
+body{
+    background: url(./coffeeBg.jpg) no-repeat center center fixed;
+    background-size: cover;
+}
+
+.hero{
+    margin: 10%;
+    text-align: center;
+    color: black;
+    font-family:'Revalia', cursive;
+}
+.ima{
+    height: 100px;
+    width: 200px;
+}
+.span{
+    background-color: beige;
+    opacity: 80%;
+}
