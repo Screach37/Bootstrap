@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Cards</title>
+</head>
+<body class="body">
+   
+<div class="container">
+    <div class="row">
+        <div class="col-md-12">
+            <h1 class="text-center">Project on Modal</h1>
+            <p class="text-center"><a href="#" data-target="#login-modal" data-toggle="modal" role="button" class="btn btn-primary btn-lg">Login</a></p>
+        </div>
+    </div>
+</div>
+   
+<div class="modal fade" id="login-modal">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <img src="./images/logo.png" alt="logo" id="img_logo" class="img-thumbnail">
+            </div>
+
+            <div id="div-forms">
+                <form>
+                    <div class="modal-body">
+                        <div>
+                            <span>Type Email and Passwd here:</span>
+                        </div>
+                        <input type="text" name="" id="" class="form-control" placeholder="Email" required>
+                        <input type="password" name="" id="" class="form-control" placeholder="Password" required>
+                        <div class="checkbox">
+                            <label>
+                                <input type="checkbox">Remember Me
+                            </label>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <div class="row">
+                            <div class="col-sm-6">
+                                <button class="btn btn-primary btn-lg btn-block">Login</button>
+                            </div>
+                            <div class="col-sm-6">
+                                <button class="btn btn-primary btn-lg btn-block">SignUp</button>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+</body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.slim.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js"></script>
+</html>
